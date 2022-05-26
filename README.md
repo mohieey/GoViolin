@@ -49,7 +49,7 @@ Added DockerHub credentials to Jenkins store.
   
 ## How To Run The App Using Docker  
 You can run the app using docker by the following command and access it locally on http://localhost:8080/  
-`docker run -p 8080:8080 --rm --name goviolin -it mohiey/goviolin`  
+`docker run -p 8080:8080 --rm --name goviolin -d mohiey/goviolin`  
   
   
 ## How To Run The App Using Kubernetes  
